@@ -3,7 +3,7 @@ package com.stuff;
 public class SimpleSingle {
     public static SimpleSingle simpleSingle;
     public int i = 1;
-    //Ë½ÓĞµÄÎŞ²Î¹¹Ôì·½·¨
+    //ç§æœ‰åŒ–æ„é€ æ–¹æ³•
     private SimpleSingle(){
     }
     
@@ -13,7 +13,7 @@ public class SimpleSingle {
     	}
     	return simpleSingle;
     }
-    //ÕâÖÖ·½Ê½Í¬ÑùÊÇÊµÏÖÏß³Ì°²È«£¬µ«ÊÇÕâÖÖ·½·¨¿ÉÒÔ½ÚÊ¡¿Õ¼ä£¬Èç¹ûÕâ¸öÀàÒÑ¾­½øĞĞÊµÀı»¯£¬¾Í²»ĞèÒªÔÙ½øĞĞÍ¬²½£¬´Ó¶ø½ÚÊ¡×ÊÔ´
+    //åŒé‡æ£€æŸ¥çš„å•ä¾‹æ¨¡å¼ï¼Œæ›´æœ‰æ•ˆï¼Œæ›´èŠ‚çœèµ„æº
     public static SimpleSingle getInstence(){
     	if(simpleSingle==null){
     		synchronized (SimpleSingle.class) {

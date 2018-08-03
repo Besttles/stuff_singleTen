@@ -14,7 +14,7 @@ public static void main(String[] args) {
 		}.start();
 		System.out.println(instence.i);
 	}
-	//通过内部类的形式生成实例
+	//通鍐呴儴绫荤殑褰㈠紡瀹炵幇鍗曚緥妯″紡
 	InnerSingle single = InnerSingle.getSingle();
 }
 }

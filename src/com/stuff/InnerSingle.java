@@ -1,5 +1,5 @@
 package com.stuff;
-//内部类实现单例模式
+//鍐呴儴绫荤殑褰㈠紡瀹炵幇鍗曚緥妯″紡
 public class InnerSingle {
    private InnerSingle(){}
    private static class holder{

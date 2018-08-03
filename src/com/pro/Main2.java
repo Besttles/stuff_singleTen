@@ -15,7 +15,7 @@ public class Main2 {
 				System.out.println(instence.getCount()+instence.getCourentUser());
 			}
 		}.start();
-/*		new Thread(){
+/*		new Thread(){    
 			@Override
 			public void run() {
 				SingleTest instence = SingleTest.getInstence();
